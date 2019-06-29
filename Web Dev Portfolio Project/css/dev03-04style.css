@@ -1,0 +1,74 @@
+#header {
+  border: solid 1px #000;
+  height: 75px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#logo {
+  z-index: 1000;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  border-radius: 80px;
+  background-color: #ffbb00;
+  position: fixed;
+  top: 16px;
+  left: 50px;
+}
+#logo > p {
+  text-align: center;
+  font-size: 24px;
+}
+#body {
+  margin: 0;
+  padding: 0;
+  height: 75px;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+}
+#content {
+  padding-top: 75px;
+  height: 1000px;
+}
+.firstrow {
+  width:30%;
+  height: 100px;
+  background-color: red;
+  float: left;
+  margin: 10px;
+  
+}
+.secondrow {
+  width:252px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+  margin: 10px;
+}
+.thirdrow {
+  width:100px;
+  height: 100px;
+  background-color: green;
+  float: right;
+  margin: 80px;
+
+}
+#secondpage {
+  height: 60px;
+  width: 50px;
+  position: fixed;
+  bottom: 5%;
+  right: 0px;
+  border: solid 1px #000;
+  text-align: center;
+}
+#footer {
+  height: 75px;
+  border-top: dashed 1px #000;
+}
